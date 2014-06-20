@@ -1,2 +1,9 @@
+# Catches AUR SRC packages, most downloaded source files, and PKG files.
+# Unlikely to need to directly submit a TAR file to the AUR.
 *.tar.gz
+*.tar.xz
+
+# Catches intermediate directories for package building.
+pkg
+src
 
